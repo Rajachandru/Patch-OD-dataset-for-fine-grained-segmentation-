@@ -1,4 +1,8 @@
 # Patch-OD-dataset-for-fine-grained-segmentation-
 
-The Patch dataset is created cropping patches of size 25 Χ 25,   29 Χ 29, 33 Χ 33 from the Fundus Images in DRISHTI- GS dataset. The patches are created around the borders of the Optical Disc (OD) and Optical Cup (OC) where there is maximum ambiguity. The patches will be useful  for fine grained learning for segmentation (For more details visit https://www.youtube.com/watch?v=LmN2Vhtpr48&t=60s  https://www.youtube.com/watch?v=GfiNGjAQGVw&t=15s  and https://www.youtube.com/watch?v=oxhfNm16qOE&t=321s ). 
-In this first version of the dataset we provide 5 sample patches of the above three sizes and their corresponding labels (labels cropped from the same spatial co-ordinates). Full datset may be released post paper publication.
+The Patch dataset is created cropping patches of size 25 Χ 25 from the Fundus Images in DRISHTI- GS dataset. The patches are created around the borders of the Optical Disc (OD) and Optical Cup (OC) where there  "expected ambiguity" is maximum. The ambiguous points (in class belongingness as OD or OC)  are extracted by EX-OR ing OD and OC labels. The folder named "Expected ambiguities" shows the images with the ambiguous pixels in white.
+In the Excel file called "Expected ambiguities" we have taken 70,199 ambiguous points (pixels) randomly from all images. 
+The patches of size 25 × 25 is extracted from the original image and OD ground truth for fine grained learning.  
+Since “Git Hub” is not accommodating the file size, I share the g-drive with the 70,199 patches of size 25 × 25 created in the images and at the same spatial co-ordinates in the OD labels.
+https://drive.google.com/drive/folders/1OeJr0S-iuwugpeUVDMFjNHAjmteQguge?usp=sharing
+
