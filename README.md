@@ -6,3 +6,5 @@ The patches of size 25 × 25 is extracted from the original image and OD ground 
 Since “Git Hub” is not accommodating the file size, I share the g-drive with the 70,199 patches of size 25 × 25 created in the images and at the same spatial co-ordinates in the OD labels.
 https://drive.google.com/drive/folders/1OeJr0S-iuwugpeUVDMFjNHAjmteQguge?usp=sharing
 
+
+
